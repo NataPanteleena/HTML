@@ -1,0 +1,39 @@
+ /* sidebar -------------------------------------------------------- */
+ .sidebar {
+    width: 263px;
+    height: 920px;
+    background-color: var(--background-color-white);
+    display: block;
+    grid-column: 1;
+    margin-left: 8px;
+}
+.personal-cabinet {
+    height: 88px;
+    border-bottom: 1px solid var(--lines-color-gray);
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    gap: 12px;
+}
+.personal-cabinet-text {
+    display: block;
+    width: 94px;
+}
+.PC-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+.PC-notice {
+    font-size: 12px;
+    font-weight: 400;
+}
+.p-c-A {
+    height: 32px;
+    width: 40px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--font-color-black);
+    background-color: var(--lines-color-gray);
+    padding: 4px 12px;
+}

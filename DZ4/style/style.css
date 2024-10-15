@@ -1,0 +1,130 @@
+@import "/DZ4/style/header.css";
+@import "/DZ4/style/main-left.css";
+@import "/DZ4/style/main-right-top-block.css";
+@import "/DZ4/style/main-right-table.css";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+body {
+    min-width: 320px;
+    word-break: normal;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color-grey);
+/* global */
+}
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.btn-reset {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.small-btn {
+    height: 24px;
+    width: 24px;
+    color: var(--font-color-black);
+}
+.simple-text-style {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--font-color-black);
+    line-height: 24px;
+}
+:root {
+    --background-color-white: #ffffff;
+    --background-color-grey: #f7f7f79d;
+    --font-color-black: #2A2F37;
+    --color-blue: #1E3DAF;
+    --lines-color-gray: #E6E6EA;
+    --color-dark-gray: #E7E8E8;
+    --color-grey-text: #7F8287;
+}   
+  
+  
+ /* main section -------------------------------------------------------- */
+.main-block {
+    background-color: transparent;
+}
+ .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 40px;
+    width: 1186px;
+}
+
+  /* footer-------------------------------------------------------- */
+  .logo-link {
+    width: 93px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .footer-wrapper {
+    width: 1186px;
+    height: 208px;
+    background-color: var(--font-color-black);
+    align-content: center;
+    justify-content: space-around;
+  }
+  .link-text {
+    color: var(--background-color-white);
+    font-size: 12px;
+    font-weight: 400;
+  }
+.signs-link {
+    background: transparent;
+    color: var(--font-color-black)
+}
+.footer-top-part {
+    height: 125px;
+    width: 1170px;
+    border-bottom: 1px solid var(--color-grey-text);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-top-part-left {
+    align-self: center;
+    justify-self: left;
+    width: 140px;
+}
+.footer-text {
+    color: var(--background-color-white);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-bottom-part {
+    display: flex;
+    width: 1170px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 24px;
+    
+}

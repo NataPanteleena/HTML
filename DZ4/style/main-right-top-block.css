@@ -1,0 +1,91 @@
+/* right part -------------------------------------------------------- */
+.notices-block {
+    grid-column: 2;
+    width: 880px;
+    background-color: transparent
+}
+/* cards-top-block -------------------------------------------------------- */
+
+.cards-top-block {
+    height: 88px;
+    border-bottom: 1px solid var(--lines-color-gray);
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    justify-content: space-between;
+}
+.btn-add {
+    display:flex;
+    gap: 5px; 
+    width: 133px;
+    height: 40px;
+    color: var(--background-color-white);
+    background: var(--color-blue);
+    align-items: center;
+    justify-content: center;
+}
+.notices-title {
+    display: block;
+    width: 141px;
+}
+.notices-title-text {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* cards-panel----------------------------------------------- */
+.btn-panel {
+    width: 880px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.search {
+    width: 420px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color-white);
+    padding: 8px 16px;
+}
+.search-input {
+    border: none;
+}
+.search-input::placeholder {
+    font-size: 14px;
+    font-weight: 400px;
+}
+.filter-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 159px;
+    background-color: var(--color-dark-gray);
+    color: var(--font-color-black)
+}
+.filter-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.counter-block {
+    height: 24px;
+    width: 70px;
+}
+.btn-panel-left-part {
+    display: flex;
+    align-items: center;
+    max-width: 592px;
+    gap: 20px;
+}
+.btn-panel-right-part {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
